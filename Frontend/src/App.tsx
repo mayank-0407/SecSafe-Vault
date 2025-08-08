@@ -1,13 +1,13 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./popup";
+import VaultDashboard from "./Pages/VaultDashboard";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="" element={<Home />} />
+          <Route path="" element={<VaultDashboard />} />
         </Routes>
       </BrowserRouter>
     </>
